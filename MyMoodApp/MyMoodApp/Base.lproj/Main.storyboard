@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G3J-Hf-pSG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,6 +31,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="G3J-Hf-pSG" kind="show" id="NZG-Bn-bVI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Songs to listen to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVF-2g-zNb">
                                 <rect key="frame" x="16" y="86" width="141" height="26"/>
@@ -151,5 +154,216 @@
             </objects>
             <point key="canvasLocation" x="132" y="138.98050974512745"/>
         </scene>
+        <!--Mood Buttons Board-->
+        <scene sceneID="S2u-xx-iFn">
+            <objects>
+                <viewController title="Mood Buttons Board" id="G3J-Hf-pSG" customClass="ViewController" customModule="app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3gS-tu-f5j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" translatesAutoresizingMaskIntoConstraints="NO" id="mR8-jT-VZf">
+                                <rect key="frame" x="-29" y="-14" width="521" height="769"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="769" id="Hng-3M-3O7"/>
+                                    <constraint firstAttribute="width" constant="521" id="iJk-oM-pfk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-3t-Zry">
+                                <rect key="frame" x="33" y="91" width="79" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="06O-Jq-ND3"/>
+                                    <constraint firstAttribute="width" constant="79" id="Ymb-TF-bm6"/>
+                                </constraints>
+                                <state key="normal" title="happy" image="happy"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="0ig-fw-2C8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBk-sg-wm5">
+                                <rect key="frame" x="137" y="91" width="79" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="YT3-1d-Mjd"/>
+                                    <constraint firstAttribute="width" constant="79" id="atK-oW-cgb"/>
+                                </constraints>
+                                <state key="normal" title="sad" image="sad"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sMv-oP-e6K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwB-e0-fSb">
+                                <rect key="frame" x="243" y="91" width="79" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="CtH-k7-WZ4"/>
+                                    <constraint firstAttribute="height" constant="83" id="tLS-nG-baT"/>
+                                </constraints>
+                                <state key="normal" title="stressed" image="stressed"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Pmd-EN-oOt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3W7-2L-rB3">
+                                <rect key="frame" x="33" y="246" width="79" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="SAV-Du-5Ny"/>
+                                    <constraint firstAttribute="width" constant="79" id="Uy5-fG-QtN"/>
+                                </constraints>
+                                <state key="normal" title="afraid" image="afraid"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R0-qB-PXx">
+                                <rect key="frame" x="137" y="246" width="79" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="lhZ-TF-jGj"/>
+                                    <constraint firstAttribute="width" constant="79" id="pzv-wV-SXg"/>
+                                </constraints>
+                                <state key="normal" title="frustrated" image="frustrated"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="26K-h2-0fZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfm-Bx-8p8">
+                                <rect key="frame" x="243" y="246" width="79" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="OJa-ya-I1J"/>
+                                    <constraint firstAttribute="height" constant="82" id="rte-Vn-aC4"/>
+                                </constraints>
+                                <state key="normal" title="unmotivated" image="unmotivated"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="uMh-WG-ci8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="happy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USL-HM-IYg">
+                                <rect key="frame" x="46" y="172" width="52" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="9PJ-83-59B"/>
+                                    <constraint firstAttribute="width" constant="52" id="T38-fF-qQY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnQ-Tz-wPB">
+                                <rect key="frame" x="162" y="172" width="29" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ABx-e3-8W2"/>
+                                    <constraint firstAttribute="width" constant="29" id="BtU-Tq-f3b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPQ-OC-LLz">
+                                <rect key="frame" x="247" y="172" width="71" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="DiG-ej-tos"/>
+                                    <constraint firstAttribute="width" constant="71" id="dGm-wV-jOs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="afraid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-j7-Hj7">
+                                <rect key="frame" x="48" y="327" width="49" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="M6y-1s-IOy"/>
+                                    <constraint firstAttribute="height" constant="28" id="YWG-WB-PdH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="frustrated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIR-CE-7MD">
+                                <rect key="frame" x="134" y="327" width="85" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="FWf-cw-poR"/>
+                                    <constraint firstAttribute="width" constant="85" id="cmc-zV-Na9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="unmotivated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjd-ZD-j4B">
+                                <rect key="frame" x="228" y="327" width="108" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="4IS-ZE-6Mv"/>
+                                    <constraint firstAttribute="width" constant="108" id="9Fr-mW-der"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-3R-Ctt">
+                                <rect key="frame" x="91" y="602" width="170" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="27"/>
+                                <state key="normal" title="home">
+                                    <color key="titleColor" red="0.2568527162" green="0.36908406020000001" blue="0.66378456350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5R0-qB-PXx" firstAttribute="top" secondItem="gBk-sg-wm5" secondAttribute="bottom" constant="72" id="24p-1f-wpJ"/>
+                            <constraint firstItem="5R0-qB-PXx" firstAttribute="leading" secondItem="3W7-2L-rB3" secondAttribute="trailing" constant="25" id="26q-up-EUX"/>
+                            <constraint firstItem="gBk-sg-wm5" firstAttribute="leading" secondItem="Yln-3t-Zry" secondAttribute="trailing" constant="25" id="3Bv-63-xh6"/>
+                            <constraint firstItem="Yln-3t-Zry" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="3ZU-uo-T6V"/>
+                            <constraint firstItem="gBk-sg-wm5" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="3sZ-cA-WAz"/>
+                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="top" secondItem="CPQ-OC-LLz" secondAttribute="bottom" constant="46" id="8Mn-i5-d1p"/>
+                            <constraint firstItem="CPQ-OC-LLz" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="8ap-ka-IQt"/>
+                            <constraint firstAttribute="trailing" secondItem="mR8-jT-VZf" secondAttribute="trailing" constant="-117" id="8pa-q8-TlE"/>
+                            <constraint firstItem="mjd-ZD-j4B" firstAttribute="top" secondItem="CPQ-OC-LLz" secondAttribute="bottom" constant="127" id="COT-Vm-538"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="5R0-qB-PXx" secondAttribute="bottom" constant="338" id="K5M-zl-4SQ"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="mjd-ZD-j4B" secondAttribute="bottom" constant="312" id="KvO-Lh-e23"/>
+                            <constraint firstItem="USL-HM-IYg" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="P02-dJ-E3o"/>
+                            <constraint firstItem="dnQ-Tz-wPB" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="Rnd-6l-U93"/>
+                            <constraint firstItem="mR8-jT-VZf" firstAttribute="top" secondItem="3gS-tu-f5j" secondAttribute="top" constant="-14" id="SQb-Sn-yAP"/>
+                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="top" secondItem="uwB-e0-fSb" secondAttribute="bottom" constant="72" id="TKg-j1-0hR"/>
+                            <constraint firstItem="DIR-CE-7MD" firstAttribute="leading" secondItem="N7l-j7-Hj7" secondAttribute="trailing" constant="37" id="Tvs-sW-QvH"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="yfm-Bx-8p8" secondAttribute="trailing" constant="53" id="UoR-IU-X8V"/>
+                            <constraint firstItem="3W7-2L-rB3" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="33" id="VEm-5f-UEe"/>
+                            <constraint firstItem="5R0-qB-PXx" firstAttribute="top" secondItem="dnQ-Tz-wPB" secondAttribute="bottom" constant="46" id="Z0n-Ah-sNS"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="DIR-CE-7MD" secondAttribute="bottom" constant="312" id="ZEw-uE-3k0"/>
+                            <constraint firstItem="mR8-jT-VZf" firstAttribute="leading" secondItem="3gS-tu-f5j" secondAttribute="leading" constant="-29" id="dmE-36-C5N"/>
+                            <constraint firstItem="uwB-e0-fSb" firstAttribute="leading" secondItem="gBk-sg-wm5" secondAttribute="trailing" constant="27" id="gjK-Wc-GcC"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="uwB-e0-fSb" secondAttribute="trailing" constant="53" id="gr9-bG-XAz"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="mjd-ZD-j4B" secondAttribute="trailing" constant="39" id="hWM-iN-AW7"/>
+                            <constraint firstItem="DIR-CE-7MD" firstAttribute="top" secondItem="dnQ-Tz-wPB" secondAttribute="bottom" constant="127" id="hrz-9E-n7X"/>
+                            <constraint firstItem="N7l-j7-Hj7" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="48" id="l8j-Az-E4q"/>
+                            <constraint firstItem="Yln-3t-Zry" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="33" id="m8W-TL-YiH"/>
+                            <constraint firstItem="N7l-j7-Hj7" firstAttribute="top" secondItem="USL-HM-IYg" secondAttribute="bottom" constant="127" id="ms4-mL-Spc"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="3W7-2L-rB3" secondAttribute="bottom" constant="338" id="n56-3z-P6F"/>
+                            <constraint firstItem="uwB-e0-fSb" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="nlU-CA-O3C"/>
+                            <constraint firstItem="USL-HM-IYg" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="46" id="o0f-g8-9D9"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="CPQ-OC-LLz" secondAttribute="trailing" constant="57" id="pLp-rx-kUD"/>
+                            <constraint firstItem="mjd-ZD-j4B" firstAttribute="leading" secondItem="DIR-CE-7MD" secondAttribute="trailing" constant="9" id="pld-lO-3RS"/>
+                            <constraint firstItem="CPQ-OC-LLz" firstAttribute="leading" secondItem="dnQ-Tz-wPB" secondAttribute="trailing" constant="56" id="pvq-Km-YnW"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="N7l-j7-Hj7" secondAttribute="bottom" constant="312" id="sPO-E2-5qN"/>
+                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="leading" secondItem="5R0-qB-PXx" secondAttribute="trailing" constant="27" id="t4n-ap-zmp"/>
+                            <constraint firstItem="3W7-2L-rB3" firstAttribute="top" secondItem="USL-HM-IYg" secondAttribute="bottom" constant="46" id="ub0-Cj-VWC"/>
+                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="yfm-Bx-8p8" secondAttribute="bottom" constant="339" id="ucj-If-wqZ"/>
+                            <constraint firstItem="dnQ-Tz-wPB" firstAttribute="leading" secondItem="USL-HM-IYg" secondAttribute="trailing" constant="64" id="xW4-aZ-JYN"/>
+                            <constraint firstAttribute="bottom" secondItem="mR8-jT-VZf" secondAttribute="bottom" constant="-88" id="zAD-tp-qun"/>
+                            <constraint firstItem="3W7-2L-rB3" firstAttribute="top" secondItem="Yln-3t-Zry" secondAttribute="bottom" constant="72" id="znH-5T-vbp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2v1-qY-2Dz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NmY-ES-4ZT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-556" y="139"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="afraid" width="480" height="480"/>
+        <image name="frustrated" width="480" height="480"/>
+        <image name="happy" width="480" height="480"/>
+        <image name="sad" width="480" height="480"/>
+        <image name="stressed" width="480" height="480"/>
+        <image name="unmotivated" width="480" height="480"/>
+        <image name="yellow" width="640" height="960"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="uMh-WG-ci8"/>
+    </inferredMetricsTieBreakers>
 </document>
