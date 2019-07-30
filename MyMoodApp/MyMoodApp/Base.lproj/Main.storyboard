@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G3J-Hf-pSG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,17 +31,14 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="G3J-Hf-pSG" kind="show" id="NZG-Bn-bVI"/>
-                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Songs to listen to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVF-2g-zNb">
-                                <rect key="frame" x="16" y="86" width="141" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs to listen to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVF-2g-zNb">
+                                <rect key="frame" x="16" y="86.5" width="141" height="25.5"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QoQ-lg-TGL">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QoQ-lg-TGL">
                                 <rect key="frame" x="16" y="120" width="296" height="88"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a very long song that takes up a bunch of space " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cru-eN-TzT">
@@ -70,35 +67,12 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Books to read:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5k-o6-5NE">
-                                <rect key="frame" x="16" y="227" width="113.5" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Books to read:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5k-o6-5NE">
+                                <rect key="frame" x="16" y="227.5" width="113.5" height="25.5"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="2hv-Tp-REu">
-                                <rect key="frame" x="18" y="261.5" width="518.5" height="65.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a very long book with a very long title that takes up a bunch of space with an author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xt4-PX-3yD">
-                                        <rect key="frame" x="0.0" y="0.0" width="518.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="book" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfs-oR-vqn">
-                                        <rect key="frame" x="0.0" y="22.5" width="518.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O1-Tn-YIz">
-                                        <rect key="frame" x="0.0" y="45" width="518.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2v-Nr-nLX">
                                 <rect key="frame" x="16" y="357" width="125" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,24 +91,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do this breathing exercise. Breathe in for 4 seconds, hold it for 3, breathe out for 4." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxe-I8-4ew">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Do this breathing exercise. Breathe in for 4 seconds, hold it for 3, breathe out for 4." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxe-I8-4ew">
                                 <rect key="frame" x="16" y="448" width="350" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-Im-X6T">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-Im-X6T">
                                 <rect key="frame" x="67" y="511" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="2hv-Tp-REu">
+                                <rect key="frame" x="9" y="261" width="356" height="65.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a very long book with a very long title that takes up space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xt4-PX-3yD">
+                                        <rect key="frame" x="0.0" y="0.0" width="356" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="book" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfs-oR-vqn">
+                                        <rect key="frame" x="0.0" y="22.5" width="356" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O1-Tn-YIz">
+                                        <rect key="frame" x="0.0" y="45" width="356" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="V5k-o6-5NE" firstAttribute="top" secondItem="QoQ-lg-TGL" secondAttribute="bottom" constant="19.5" id="3PB-X4-AJ1"/>
                             <constraint firstAttribute="bottom" secondItem="a2v-Nr-nLX" secondAttribute="bottom" constant="280" id="6FJ-aB-dlS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kaf-Im-X6T" secondAttribute="bottom" constant="28" id="7fm-Xc-JiW"/>
                             <constraint firstItem="XF4-ya-cAY" firstAttribute="leading" secondItem="ueb-gF-7GU" secondAttribute="trailing" constant="237" id="7pc-m2-Vlb"/>
+                            <constraint firstItem="QoQ-lg-TGL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Aat-fA-Jxq"/>
+                            <constraint firstItem="a2v-Nr-nLX" firstAttribute="top" secondItem="2hv-Tp-REu" secondAttribute="bottom" constant="30.5" id="BpT-9J-xwd"/>
                             <constraint firstItem="ueb-gF-7GU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Cxl-np-9JQ"/>
-                            <constraint firstItem="a2v-Nr-nLX" firstAttribute="top" secondItem="2hv-Tp-REu" secondAttribute="bottom" constant="30" id="Jc6-mj-XS1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QoQ-lg-TGL" secondAttribute="trailing" constant="63" id="DjI-Jc-BOY"/>
+                            <constraint firstItem="QoQ-lg-TGL" firstAttribute="top" secondItem="mVF-2g-zNb" secondAttribute="bottom" constant="8" id="IcF-oY-eg9"/>
+                            <constraint firstItem="Kaf-Im-X6T" firstAttribute="top" secondItem="Sxe-I8-4ew" secondAttribute="bottom" constant="14" id="LY4-0u-Wwp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2hv-Tp-REu" secondAttribute="trailing" constant="10" id="Nah-7n-huP"/>
                             <constraint firstItem="XF4-ya-cAY" firstAttribute="leading" secondItem="ueb-gF-7GU" secondAttribute="trailing" constant="237" id="QCe-hB-4F7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XF4-ya-cAY" secondAttribute="bottom" constant="603" id="T2y-JC-fZX"/>
                             <constraint firstItem="ueb-gF-7GU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1" id="Tyz-gI-erM"/>
@@ -142,9 +144,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XF4-ya-cAY" secondAttribute="trailing" constant="16" id="X5W-mN-npu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a2v-Nr-nLX" secondAttribute="trailing" constant="234" id="bYT-bF-nDS"/>
                             <constraint firstItem="a2v-Nr-nLX" firstAttribute="leading" secondItem="V5k-o6-5NE" secondAttribute="leading" id="fmT-qM-bD6"/>
+                            <constraint firstItem="Kaf-Im-X6T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="gEb-MU-JDF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kaf-Im-X6T" secondAttribute="trailing" constant="68" id="huT-zC-5CO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ueb-gF-7GU" secondAttribute="bottom" constant="603" id="iim-md-c0u"/>
                             <constraint firstItem="XF4-ya-cAY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1" id="nWE-CT-Ix9"/>
-                            <constraint firstItem="a2v-Nr-nLX" firstAttribute="leading" secondItem="QoQ-lg-TGL" secondAttribute="leading" id="r5R-Si-htb"/>
+                            <constraint firstItem="2hv-Tp-REu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="rMX-Jn-rtR"/>
+                            <constraint firstItem="2hv-Tp-REu" firstAttribute="top" secondItem="V5k-o6-5NE" secondAttribute="bottom" constant="8" id="u1D-WT-Ykf"/>
                             <constraint firstItem="a2v-Nr-nLX" firstAttribute="leading" secondItem="mVF-2g-zNb" secondAttribute="leading" id="wC8-Br-5lc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -152,218 +157,117 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="138.98050974512745"/>
+            <point key="canvasLocation" x="892" y="134"/>
         </scene>
-        <!--Mood Buttons Board-->
-        <scene sceneID="S2u-xx-iFn">
+        <!--Second View Controller-->
+        <scene sceneID="h50-E0-3ul">
             <objects>
-                <viewController title="Mood Buttons Board" id="G3J-Hf-pSG" customClass="ViewController" customModule="app" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3gS-tu-f5j">
+                <viewController title="Second View Controller" id="4Dq-yA-Urg" customClass="SecondViewController" customModule="MyMoodApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xbp-Fb-0mI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" translatesAutoresizingMaskIntoConstraints="NO" id="mR8-jT-VZf">
-                                <rect key="frame" x="-29" y="-14" width="521" height="769"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="769" id="Hng-3M-3O7"/>
-                                    <constraint firstAttribute="width" constant="521" id="iJk-oM-pfk"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-3t-Zry">
-                                <rect key="frame" x="33" y="91" width="79" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="06O-Jq-ND3"/>
-                                    <constraint firstAttribute="width" constant="79" id="Ymb-TF-bm6"/>
-                                </constraints>
-                                <state key="normal" title="happy" image="happy"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="0ig-fw-2C8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBk-sg-wm5">
-                                <rect key="frame" x="137" y="91" width="79" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="YT3-1d-Mjd"/>
-                                    <constraint firstAttribute="width" constant="79" id="atK-oW-cgb"/>
-                                </constraints>
-                                <state key="normal" title="sad" image="sad"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="sMv-oP-e6K"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwB-e0-fSb">
-                                <rect key="frame" x="243" y="91" width="79" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="79" id="CtH-k7-WZ4"/>
-                                    <constraint firstAttribute="height" constant="83" id="tLS-nG-baT"/>
-                                </constraints>
-                                <state key="normal" title="stressed" image="stressed"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Pmd-EN-oOt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3W7-2L-rB3">
-                                <rect key="frame" x="33" y="246" width="79" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="SAV-Du-5Ny"/>
-                                    <constraint firstAttribute="width" constant="79" id="Uy5-fG-QtN"/>
-                                </constraints>
-                                <state key="normal" title="afraid" image="afraid"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R0-qB-PXx">
-                                <rect key="frame" x="137" y="246" width="79" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="lhZ-TF-jGj"/>
-                                    <constraint firstAttribute="width" constant="79" id="pzv-wV-SXg"/>
-                                </constraints>
-                                <state key="normal" title="frustrated" image="frustrated"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="26K-h2-0fZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfm-Bx-8p8">
-                                <rect key="frame" x="243" y="246" width="79" height="82"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="79" id="OJa-ya-I1J"/>
-                                    <constraint firstAttribute="height" constant="82" id="rte-Vn-aC4"/>
-                                </constraints>
-                                <state key="normal" title="unmotivated" image="unmotivated"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="uMh-WG-ci8"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="happy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USL-HM-IYg">
-                                <rect key="frame" x="46" y="172" width="52" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="9PJ-83-59B"/>
-                                    <constraint firstAttribute="width" constant="52" id="T38-fF-qQY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnQ-Tz-wPB">
-                                <rect key="frame" x="162" y="172" width="29" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="ABx-e3-8W2"/>
-                                    <constraint firstAttribute="width" constant="29" id="BtU-Tq-f3b"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPQ-OC-LLz">
-                                <rect key="frame" x="247" y="172" width="71" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="DiG-ej-tos"/>
-                                    <constraint firstAttribute="width" constant="71" id="dGm-wV-jOs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="afraid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-j7-Hj7">
-                                <rect key="frame" x="48" y="327" width="49" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="M6y-1s-IOy"/>
-                                    <constraint firstAttribute="height" constant="28" id="YWG-WB-PdH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="frustrated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIR-CE-7MD">
-                                <rect key="frame" x="134" y="327" width="85" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="FWf-cw-poR"/>
-                                    <constraint firstAttribute="width" constant="85" id="cmc-zV-Na9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="unmotivated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjd-ZD-j4B">
-                                <rect key="frame" x="228" y="327" width="108" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="4IS-ZE-6Mv"/>
-                                    <constraint firstAttribute="width" constant="108" id="9Fr-mW-der"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-3R-Ctt">
-                                <rect key="frame" x="91" y="602" width="170" height="45"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-lt-Hdj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="CFN-9y-jSJ"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3iq-ES-js8">
+                                <rect key="frame" x="100" y="272" width="175" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="27"/>
-                                <state key="normal" title="home">
-                                    <color key="titleColor" red="0.2568527162" green="0.36908406020000001" blue="0.66378456350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="inputTaskTextField:" destination="4Dq-yA-Urg" eventType="editingDidEnd" id="CjU-CP-tGe"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add your task here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o19-bd-b4k">
+                                <rect key="frame" x="115" y="196" width="162" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jws-dr-OvL">
+                                <rect key="frame" x="161" y="343" width="55" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleAddTaskButtonPress:" destination="4Dq-yA-Urg" eventType="touchUpInside" id="c5s-9B-ESs"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="5R0-qB-PXx" firstAttribute="top" secondItem="gBk-sg-wm5" secondAttribute="bottom" constant="72" id="24p-1f-wpJ"/>
-                            <constraint firstItem="5R0-qB-PXx" firstAttribute="leading" secondItem="3W7-2L-rB3" secondAttribute="trailing" constant="25" id="26q-up-EUX"/>
-                            <constraint firstItem="gBk-sg-wm5" firstAttribute="leading" secondItem="Yln-3t-Zry" secondAttribute="trailing" constant="25" id="3Bv-63-xh6"/>
-                            <constraint firstItem="Yln-3t-Zry" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="3ZU-uo-T6V"/>
-                            <constraint firstItem="gBk-sg-wm5" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="3sZ-cA-WAz"/>
-                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="top" secondItem="CPQ-OC-LLz" secondAttribute="bottom" constant="46" id="8Mn-i5-d1p"/>
-                            <constraint firstItem="CPQ-OC-LLz" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="8ap-ka-IQt"/>
-                            <constraint firstAttribute="trailing" secondItem="mR8-jT-VZf" secondAttribute="trailing" constant="-117" id="8pa-q8-TlE"/>
-                            <constraint firstItem="mjd-ZD-j4B" firstAttribute="top" secondItem="CPQ-OC-LLz" secondAttribute="bottom" constant="127" id="COT-Vm-538"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="5R0-qB-PXx" secondAttribute="bottom" constant="338" id="K5M-zl-4SQ"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="mjd-ZD-j4B" secondAttribute="bottom" constant="312" id="KvO-Lh-e23"/>
-                            <constraint firstItem="USL-HM-IYg" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="P02-dJ-E3o"/>
-                            <constraint firstItem="dnQ-Tz-wPB" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="152" id="Rnd-6l-U93"/>
-                            <constraint firstItem="mR8-jT-VZf" firstAttribute="top" secondItem="3gS-tu-f5j" secondAttribute="top" constant="-14" id="SQb-Sn-yAP"/>
-                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="top" secondItem="uwB-e0-fSb" secondAttribute="bottom" constant="72" id="TKg-j1-0hR"/>
-                            <constraint firstItem="DIR-CE-7MD" firstAttribute="leading" secondItem="N7l-j7-Hj7" secondAttribute="trailing" constant="37" id="Tvs-sW-QvH"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="yfm-Bx-8p8" secondAttribute="trailing" constant="53" id="UoR-IU-X8V"/>
-                            <constraint firstItem="3W7-2L-rB3" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="33" id="VEm-5f-UEe"/>
-                            <constraint firstItem="5R0-qB-PXx" firstAttribute="top" secondItem="dnQ-Tz-wPB" secondAttribute="bottom" constant="46" id="Z0n-Ah-sNS"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="DIR-CE-7MD" secondAttribute="bottom" constant="312" id="ZEw-uE-3k0"/>
-                            <constraint firstItem="mR8-jT-VZf" firstAttribute="leading" secondItem="3gS-tu-f5j" secondAttribute="leading" constant="-29" id="dmE-36-C5N"/>
-                            <constraint firstItem="uwB-e0-fSb" firstAttribute="leading" secondItem="gBk-sg-wm5" secondAttribute="trailing" constant="27" id="gjK-Wc-GcC"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="uwB-e0-fSb" secondAttribute="trailing" constant="53" id="gr9-bG-XAz"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="mjd-ZD-j4B" secondAttribute="trailing" constant="39" id="hWM-iN-AW7"/>
-                            <constraint firstItem="DIR-CE-7MD" firstAttribute="top" secondItem="dnQ-Tz-wPB" secondAttribute="bottom" constant="127" id="hrz-9E-n7X"/>
-                            <constraint firstItem="N7l-j7-Hj7" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="48" id="l8j-Az-E4q"/>
-                            <constraint firstItem="Yln-3t-Zry" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="33" id="m8W-TL-YiH"/>
-                            <constraint firstItem="N7l-j7-Hj7" firstAttribute="top" secondItem="USL-HM-IYg" secondAttribute="bottom" constant="127" id="ms4-mL-Spc"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="3W7-2L-rB3" secondAttribute="bottom" constant="338" id="n56-3z-P6F"/>
-                            <constraint firstItem="uwB-e0-fSb" firstAttribute="top" secondItem="2v1-qY-2Dz" secondAttribute="top" constant="71" id="nlU-CA-O3C"/>
-                            <constraint firstItem="USL-HM-IYg" firstAttribute="leading" secondItem="2v1-qY-2Dz" secondAttribute="leading" constant="46" id="o0f-g8-9D9"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="trailing" secondItem="CPQ-OC-LLz" secondAttribute="trailing" constant="57" id="pLp-rx-kUD"/>
-                            <constraint firstItem="mjd-ZD-j4B" firstAttribute="leading" secondItem="DIR-CE-7MD" secondAttribute="trailing" constant="9" id="pld-lO-3RS"/>
-                            <constraint firstItem="CPQ-OC-LLz" firstAttribute="leading" secondItem="dnQ-Tz-wPB" secondAttribute="trailing" constant="56" id="pvq-Km-YnW"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="N7l-j7-Hj7" secondAttribute="bottom" constant="312" id="sPO-E2-5qN"/>
-                            <constraint firstItem="yfm-Bx-8p8" firstAttribute="leading" secondItem="5R0-qB-PXx" secondAttribute="trailing" constant="27" id="t4n-ap-zmp"/>
-                            <constraint firstItem="3W7-2L-rB3" firstAttribute="top" secondItem="USL-HM-IYg" secondAttribute="bottom" constant="46" id="ub0-Cj-VWC"/>
-                            <constraint firstItem="2v1-qY-2Dz" firstAttribute="bottom" secondItem="yfm-Bx-8p8" secondAttribute="bottom" constant="339" id="ucj-If-wqZ"/>
-                            <constraint firstItem="dnQ-Tz-wPB" firstAttribute="leading" secondItem="USL-HM-IYg" secondAttribute="trailing" constant="64" id="xW4-aZ-JYN"/>
-                            <constraint firstAttribute="bottom" secondItem="mR8-jT-VZf" secondAttribute="bottom" constant="-88" id="zAD-tp-qun"/>
-                            <constraint firstItem="3W7-2L-rB3" firstAttribute="top" secondItem="Yln-3t-Zry" secondAttribute="bottom" constant="72" id="znH-5T-vbp"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="2v1-qY-2Dz"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ypD-HQ-CiR"/>
                     </view>
+                    <connections>
+                        <outlet property="handleTaskTextField" destination="3iq-ES-js8" id="lcX-u1-rS0"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NmY-ES-4ZT" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFF-1J-GDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-556" y="139"/>
+            <point key="canvasLocation" x="3010" y="134"/>
+        </scene>
+        <!--List View Controller-->
+        <scene sceneID="ZsJ-GW-m9W">
+            <objects>
+                <tableViewController title="List View Controller" id="goM-0e-Aqu" customClass="TableViewController" customModule="MyMoodApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eAl-yh-zcg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="opJ-h8-9ge">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="opJ-h8-9ge" id="R2y-7W-wMY">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="goM-0e-Aqu" id="QdP-Uf-okf"/>
+                            <outlet property="delegate" destination="goM-0e-Aqu" id="lbO-Aj-zuy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My tasks" id="ixL-5n-1N0">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gJN-8b-Vh4">
+                            <connections>
+                                <segue destination="4Dq-yA-Urg" kind="show" id="XnX-wo-O5l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myTableView" destination="eAl-yh-zcg" id="4es-XA-mdi"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lla-2n-w6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2281" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5h1-D8-p6e">
+            <objects>
+                <navigationController id="mjJ-Ad-O3N" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zY4-1W-J0E">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="goM-0e-Aqu" kind="relationship" relationship="rootViewController" id="Ug6-R0-IAI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4wY-Vw-6US" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="134"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="afraid" width="480" height="480"/>
-        <image name="frustrated" width="480" height="480"/>
-        <image name="happy" width="480" height="480"/>
-        <image name="sad" width="480" height="480"/>
-        <image name="stressed" width="480" height="480"/>
-        <image name="unmotivated" width="480" height="480"/>
-        <image name="yellow" width="640" height="960"/>
-    </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="uMh-WG-ci8"/>
-    </inferredMetricsTieBreakers>
 </document>
