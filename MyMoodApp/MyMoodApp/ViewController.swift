@@ -7,11 +7,12 @@
 
 
 import UIKit
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
+
     }
        
 
@@ -37,11 +38,20 @@ class ViewController: UIViewController {
             // Set the background image to be behind all the elements
             view.sendSubviewToBack(backgroundImageView) }
 
+ 
+
+
+
 
    }
         
 }
         
+
+
+
+
+
 
 
 
