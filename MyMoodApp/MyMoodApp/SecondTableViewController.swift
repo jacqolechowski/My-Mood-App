@@ -1,19 +1,19 @@
 //
-//  TableViewController.swift
+//  SecondTableViewController.swift
 //  MyMoodApp
 //
-//  Created by GWC on 7/30/19.
+//  Created by GWC on 7/31/19.
 //  Copyright © 2019 GWC. All rights reserved.
 //
 
 import UIKit
 import CoreData
-class TableViewController: UITableViewController {
+class SecondTableViewController: UITableViewController {
 let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    var tasks: [Task] = []
+    var tasks: [Item] = []
     func getData () {
         do {
-            tasks = try context.fetch(Task.fetchRequest())
+            tasks = try context.fetch(Item.fetchRequest())
             print(tasks)
             DispatchQueue.main.async {
                 self.myTableView.reloadData()
@@ -22,49 +22,47 @@ let context = (UIApplication.shared.delegate as! AppDelegate).persistentContaine
             print("Couldn't fetch Data")
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-        
+    
     override func viewDidAppear(_ animated: Bool) {
     getData()
         }
+  
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    
+    }
 
+    
+   
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-    
     @IBOutlet var myTableView: UITableView!
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return tasks.count
     }
 
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = myTableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as UITableViewCell
-        cell.textLabel?.text = tasks[indexPath.row].taskName
+        let cell = tableView.dequeueReusableCell(withIdentifier: "mySecondCell", for: indexPath) as UITableViewCell
+        cell.textLabel?.text = tasks[indexPath.row].entry
         return cell
     }
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
 
-        return cell
-    }
-    */
+    
+    
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -74,17 +72,21 @@ let context = (UIApplication.shared.delegate as! AppDelegate).persistentContaine
     }
     */
 
-    /*
-    // Override to support editing the table view.
+//    Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            let task = self.tasks[indexPath.row]
+            self.context.delete(task)
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            self.tasks.remove(at: indexPath.row)
+            // Update the line below so that it matches the name of your
+            // table view's IBOutlet variable name
             tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+            
+        }
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.
@@ -110,9 +112,5 @@ let context = (UIApplication.shared.delegate as! AppDelegate).persistentContaine
         // Pass the selected object to the new view controller.
     }
     */
-
-    
-    
-    
 
 }
