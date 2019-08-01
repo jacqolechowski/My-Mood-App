@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2F9E3922F351DC000DF86A /* AfraidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */; };
+		CCBD3B1D22F102C000BF9216 /* suggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */; };
 		CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */; };
 		CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59C22EF9652005E83F2 /* ViewController.swift */; };
 		CCCCF5A022EF9652005E83F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF59E22EF9652005E83F2 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfraidViewController.swift; sourceTree = "<group>"; };
+		CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = suggestionsViewController.swift; path = ../suggestionsViewController.swift; sourceTree = "<group>"; };
 		CCCCF59722EF9652005E83F2 /* MyMoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCCF59C22EF9652005E83F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */,
 				CCCCF59C22EF9652005E83F2 /* ViewController.swift */,
 				CCCCF59E22EF9652005E83F2 /* Main.storyboard */,
+				CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */,
+				CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */,
 				CCCCF5A422EF965D005E83F2 /* Assets.xcassets */,
 				CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */,
 				CCCCF5A922EF965D005E83F2 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBD3B1D22F102C000BF9216 /* suggestionsViewController.swift in Sources */,
 				CCCCF5A322EF9652005E83F2 /* MyMoodApp.xcdatamodeld in Sources */,
 				CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */,
 				CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */,
+				CC2F9E3922F351DC000DF86A /* AfraidViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NBYY75QTH3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyMoodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NBYY75QTH3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyMoodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
