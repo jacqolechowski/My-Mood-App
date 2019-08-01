@@ -1,179 +1,196 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 50;
+objects = {
 
 /* Begin PBXBuildFile section */
-		CC70504722F0E49F004477D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70504622F0E49F004477D2 /* TableViewController.swift */; };
-		CC70504922F0EB7D004477D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70504822F0EB7D004477D2 /* SecondViewController.swift */; };
-		CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */; };
-		CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59C22EF9652005E83F2 /* ViewController.swift */; };
-		CCCCF5A022EF9652005E83F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF59E22EF9652005E83F2 /* Main.storyboard */; };
-		CCCCF5A322EF9652005E83F2 /* MyMoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */; };
-		CCCCF5A522EF965D005E83F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF5A422EF965D005E83F2 /* Assets.xcassets */; };
-		CCCCF5A822EF965D005E83F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */; };
+    CC2F9E3922F351DC000DF86A /* AfraidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */; };
+    CCBD3B1D22F102C000BF9216 /* suggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */; };
+    CC61ABB222F2032900C8582A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61ABB122F2032900C8582A /* ThirdViewController.swift */; };
+    CC61ABB422F2037000C8582A /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61ABB322F2037000C8582A /* SecondTableViewController.swift */; };
+    CC70504722F0E49F004477D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70504622F0E49F004477D2 /* TableViewController.swift */; };
+    CC70504922F0EB7D004477D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70504822F0EB7D004477D2 /* SecondViewController.swift */; };
+    CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */; };
+    CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF59C22EF9652005E83F2 /* ViewController.swift */; };
+    CCCCF5A022EF9652005E83F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF59E22EF9652005E83F2 /* Main.storyboard */; };
+    CCCCF5A322EF9652005E83F2 /* MyMoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */; };
+    CCCCF5A522EF965D005E83F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF5A422EF965D005E83F2 /* Assets.xcassets */; };
+    CCCCF5A822EF965D005E83F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC70504622F0E49F004477D2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		CC70504822F0EB7D004477D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		CCCCF59722EF9652005E83F2 /* MyMoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCCCF59C22EF9652005E83F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCCCF59F22EF9652005E83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMoodApp.xcdatamodel; sourceTree = "<group>"; };
-		CCCCF5A422EF965D005E83F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCCCF5A722EF965D005E83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCCCF5A922EF965D005E83F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfraidViewController.swift; sourceTree = "<group>"; };
+    CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = suggestionsViewController.swift; path = ../suggestionsViewController.swift; sourceTree = "<group>"; };
+    CC61ABB122F2032900C8582A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+    CC61ABB322F2037000C8582A /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+    CC70504622F0E49F004477D2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+    CC70504822F0EB7D004477D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+    CCCCF59722EF9652005E83F2 /* MyMoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    CCCCF59C22EF9652005E83F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+    CCCCF59F22EF9652005E83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+    CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMoodApp.xcdatamodel; sourceTree = "<group>"; };
+    CCCCF5A422EF965D005E83F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    CCCCF5A722EF965D005E83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+    CCCCF5A922EF965D005E83F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCCCF59422EF9652005E83F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+    CCCCF59422EF9652005E83F2 /* Frameworks */ = {
+    isa = PBXFrameworksBuildPhase;
+    buildActionMask = 2147483647;
+    files = (
+    );
+    runOnlyForDeploymentPostprocessing = 0;
+    };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCCCF58E22EF9652005E83F2 = {
-			isa = PBXGroup;
-			children = (
-				CCCCF59922EF9652005E83F2 /* MyMoodApp */,
-				CCCCF59822EF9652005E83F2 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CCCCF59822EF9652005E83F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CCCCF59722EF9652005E83F2 /* MyMoodApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CCCCF59922EF9652005E83F2 /* MyMoodApp */ = {
-			isa = PBXGroup;
-			children = (
-				CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */,
-				CCCCF59C22EF9652005E83F2 /* ViewController.swift */,
-				CCCCF59E22EF9652005E83F2 /* Main.storyboard */,
-				CC70504822F0EB7D004477D2 /* SecondViewController.swift */,
-				CC70504622F0E49F004477D2 /* TableViewController.swift */,
-				CCCCF5A422EF965D005E83F2 /* Assets.xcassets */,
-				CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */,
-				CCCCF5A922EF965D005E83F2 /* Info.plist */,
-				CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */,
-			);
-			path = MyMoodApp;
-			sourceTree = "<group>";
-		};
+    CCCCF58E22EF9652005E83F2 = {
+    isa = PBXGroup;
+    children = (
+    CCCCF59922EF9652005E83F2 /* MyMoodApp */,
+    CCCCF59822EF9652005E83F2 /* Products */,
+    );
+    sourceTree = "<group>";
+    };
+    CCCCF59822EF9652005E83F2 /* Products */ = {
+    isa = PBXGroup;
+    children = (
+    CCCCF59722EF9652005E83F2 /* MyMoodApp.app */,
+    );
+    name = Products;
+    sourceTree = "<group>";
+    };
+    CCCCF59922EF9652005E83F2 /* MyMoodApp */ = {
+    isa = PBXGroup;
+    children = (
+    CCCCF59A22EF9652005E83F2 /* AppDelegate.swift */,
+    CCCCF59C22EF9652005E83F2 /* ViewController.swift */,
+    CCCCF59E22EF9652005E83F2 /* Main.storyboard */,
+    CC2F9E3822F351DC000DF86A /* AfraidViewController.swift */,
+    CCBD3B1C22F102C000BF9216 /* suggestionsViewController.swift */,
+    CC61ABB322F2037000C8582A /* SecondTableViewController.swift */,
+    CC61ABB122F2032900C8582A /* ThirdViewController.swift */,
+    CC70504822F0EB7D004477D2 /* SecondViewController.swift */,
+    CC70504622F0E49F004477D2 /* TableViewController.swift */,
+    CCCCF5A422EF965D005E83F2 /* Assets.xcassets */,
+    CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */,
+    CCCCF5A922EF965D005E83F2 /* Info.plist */,
+    CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */,
+    );
+    path = MyMoodApp;
+    sourceTree = "<group>";
+    };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCCCF59622EF9652005E83F2 /* MyMoodApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCCCF5AC22EF965D005E83F2 /* Build configuration list for PBXNativeTarget "MyMoodApp" */;
-			buildPhases = (
-				CCCCF59322EF9652005E83F2 /* Sources */,
-				CCCCF59422EF9652005E83F2 /* Frameworks */,
-				CCCCF59522EF9652005E83F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyMoodApp;
-			productName = MyMoodApp;
-			productReference = CCCCF59722EF9652005E83F2 /* MyMoodApp.app */;
-			productType = "com.apple.product-type.application";
-		};
+    CCCCF59622EF9652005E83F2 /* MyMoodApp */ = {
+    isa = PBXNativeTarget;
+    buildConfigurationList = CCCCF5AC22EF965D005E83F2 /* Build configuration list for PBXNativeTarget "MyMoodApp" */;
+buildPhases = (
+CCCCF59322EF9652005E83F2 /* Sources */,
+CCCCF59422EF9652005E83F2 /* Frameworks */,
+CCCCF59522EF9652005E83F2 /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = MyMoodApp;
+productName = MyMoodApp;
+productReference = CCCCF59722EF9652005E83F2 /* MyMoodApp.app */;
+productType = "com.apple.product-type.application";
+};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CCCCF58F22EF9652005E83F2 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = GWC;
-				TargetAttributes = {
-					CCCCF59622EF9652005E83F2 = {
-						CreatedOnToolsVersion = 10.3;
-					};
-				};
-			};
-			buildConfigurationList = CCCCF59222EF9652005E83F2 /* Build configuration list for PBXProject "MyMoodApp" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = CCCCF58E22EF9652005E83F2;
-			productRefGroup = CCCCF59822EF9652005E83F2 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				CCCCF59622EF9652005E83F2 /* MyMoodApp */,
-			);
-		};
+CCCCF58F22EF9652005E83F2 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1030;
+LastUpgradeCheck = 1030;
+ORGANIZATIONNAME = GWC;
+TargetAttributes = {
+CCCCF59622EF9652005E83F2 = {
+CreatedOnToolsVersion = 10.3;
+};
+};
+};
+buildConfigurationList = CCCCF59222EF9652005E83F2 /* Build configuration list for PBXProject "MyMoodApp" */;
+compatibilityVersion = "Xcode 9.3";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = CCCCF58E22EF9652005E83F2;
+productRefGroup = CCCCF59822EF9652005E83F2 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+CCCCF59622EF9652005E83F2 /* MyMoodApp */,
+);
+};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CCCCF59522EF9652005E83F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCCCF5A822EF965D005E83F2 /* LaunchScreen.storyboard in Resources */,
-				CCCCF5A522EF965D005E83F2 /* Assets.xcassets in Resources */,
-				CCCCF5A022EF9652005E83F2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+CCCCF59522EF9652005E83F2 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+CCCCF5A822EF965D005E83F2 /* LaunchScreen.storyboard in Resources */,
+CCCCF5A522EF965D005E83F2 /* Assets.xcassets in Resources */,
+CCCCF5A022EF9652005E83F2 /* Main.storyboard in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CCCCF59322EF9652005E83F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCCCF5A322EF9652005E83F2 /* MyMoodApp.xcdatamodeld in Sources */,
-				CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */,
-				CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */,
-				CC70504922F0EB7D004477D2 /* SecondViewController.swift in Sources */,
-				CC70504722F0E49F004477D2 /* TableViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+CCCCF59322EF9652005E83F2 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+CCBD3B1D22F102C000BF9216 /* suggestionsViewController.swift in Sources */,
+CCCCF5A322EF9652005E83F2 /* MyMoodApp.xcdatamodeld in Sources */,
+CCCCF59D22EF9652005E83F2 /* ViewController.swift in Sources */,
+CCCCF59B22EF9652005E83F2 /* AppDelegate.swift in Sources */,
+CC2F9E3922F351DC000DF86A /* AfraidViewController.swift in Sources */,
+CC70504922F0EB7D004477D2 /* SecondViewController.swift in Sources */,
+CC61ABB422F2037000C8582A /* SecondTableViewController.swift in Sources */,
+CC61ABB222F2032900C8582A /* ThirdViewController.swift in Sources */,
+CC70504722F0E49F004477D2 /* TableViewController.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCCCF59E22EF9652005E83F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCCCF59F22EF9652005E83F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCCCF5A722EF965D005E83F2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+CCCCF59E22EF9652005E83F2 /* Main.storyboard */ = {
+isa = PBXVariantGroup;
+children = (
+CCCCF59F22EF9652005E83F2 /* Base */,
+);
+name = Main.storyboard;
+sourceTree = "<group>";
+};
+CCCCF5A622EF965D005E83F2 /* LaunchScreen.storyboard */ = {
+isa = PBXVariantGroup;
+children = (
+CCCCF5A722EF965D005E83F2 /* Base */,
+);
+name = LaunchScreen.storyboard;
+sourceTree = "<group>";
+};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+
 		CCCCF5AA22EF965D005E83F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,41 +343,196 @@
 			};
 			name = Release;
 		};
+
+CCCCF5AA22EF965D005E83F2 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+CLANG_CXX_LIBRARY = "libc++";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+CODE_SIGN_IDENTITY = "iPhone Developer";
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+};
+name = Debug;
+};
+CCCCF5AB22EF965D005E83F2 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+CLANG_CXX_LIBRARY = "libc++";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+CODE_SIGN_IDENTITY = "iPhone Developer";
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+MTL_ENABLE_DEBUG_INFO = NO;
+MTL_FAST_MATH = YES;
+SDKROOT = iphoneos;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+CCCCF5AD22EF965D005E83F2 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+
+DEVELOPMENT_TEAM = NA34HH69TP;
+INFOPLIST_FILE = MyMoodApp/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+PRODUCT_BUNDLE_IDENTIFIER = com.jacqueline.MyMoodApp;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+CCCCF5AE22EF965D005E83F2 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = NA34HH69TP;
+INFOPLIST_FILE = MyMoodApp/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+PRODUCT_BUNDLE_IDENTIFIER = com.jacqueline.MyMoodApp;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCCCF59222EF9652005E83F2 /* Build configuration list for PBXProject "MyMoodApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCCCF5AA22EF965D005E83F2 /* Debug */,
-				CCCCF5AB22EF965D005E83F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCCCF5AC22EF965D005E83F2 /* Build configuration list for PBXNativeTarget "MyMoodApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCCCF5AD22EF965D005E83F2 /* Debug */,
-				CCCCF5AE22EF965D005E83F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+CCCCF59222EF9652005E83F2 /* Build configuration list for PBXProject "MyMoodApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+CCCCF5AA22EF965D005E83F2 /* Debug */,
+CCCCF5AB22EF965D005E83F2 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+CCCCF5AC22EF965D005E83F2 /* Build configuration list for PBXNativeTarget "MyMoodApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+CCCCF5AD22EF965D005E83F2 /* Debug */,
+CCCCF5AE22EF965D005E83F2 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */,
-			);
-			currentVersion = CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */;
-			path = MyMoodApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
+CCCCF5A122EF9652005E83F2 /* MyMoodApp.xcdatamodeld */ = {
+isa = XCVersionGroup;
+children = (
+CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */,
+);
+currentVersion = CCCCF5A222EF9652005E83F2 /* MyMoodApp.xcdatamodel */;
+path = MyMoodApp.xcdatamodeld;
+sourceTree = "<group>";
+versionGroupType = wrapper.xcdatamodel;
+};
 /* End XCVersionGroup section */
-	};
-	rootObject = CCCCF58F22EF9652005E83F2 /* Project object */;
+};
+rootObject = CCCCF58F22EF9652005E83F2 /* Project object */;
 }
