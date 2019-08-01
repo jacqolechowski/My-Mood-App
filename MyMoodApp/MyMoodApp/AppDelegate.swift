@@ -9,8 +9,10 @@
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+<<<<<<< HEAD
     var emotions : String = ""
     var window: UIWindow?
 
@@ -18,6 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+=======
+    
+    var window: UIWindow?
+    
+    
+>>>>>>> 7f55433b7d0af81320345100b4ec2d6fbf91a7ef
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -86,7 +94,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+         
     }
 
-}
+   
+    
+
+    }
+
 
