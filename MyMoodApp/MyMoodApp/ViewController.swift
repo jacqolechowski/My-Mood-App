@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        func newWonder() {
-            let randomPlace = wonders.randomElement()
+
     
     }
        
@@ -36,7 +35,7 @@ class ViewController: UIViewController {
             
             // Set the image of the background view
             // Update the name in quotation marks to match the name of your background image
-            backgroundImageView.image = UIImage(named: "99")
+            backgroundImageView.image = UIImage(named: "background1")
             
             // Set the background image to be behind all the elements
             view.sendSubviewToBack(backgroundImageView) }
